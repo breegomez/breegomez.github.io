@@ -16,6 +16,7 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat';
+  color: white;
 }
 
 hr.star-light,
@@ -37,18 +38,18 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  /*content: '\f005';*/
+  content: '\f000';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2em;
 }
 
 hr.star-light {
-  border-color: #fff;
+  border-color: #E8B20F 
 }
 
 hr.star-light:after {
-  color: #fff;
+  color: #E8B20F ;
   background-color: #E8B20F ;
 }
 
@@ -58,7 +59,7 @@ hr.star-dark {
 
 hr.star-dark:after {
   color: #E8B20F ;
-  background-color: white;
+  background-color: #E8B20F ;
 }
 
 section {
